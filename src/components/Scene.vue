@@ -18,6 +18,8 @@ import axesHelper from '@/three/axesHelper'
 import animate from '@/three/animate'
 // 导入添加物体函数
 import createMesh from '@/three/createMesh'
+// 初始化调整屏幕
+import '@/three/init'
 
 // 场景元素div
 let sceneDiv = ref<HTMLElement>()
